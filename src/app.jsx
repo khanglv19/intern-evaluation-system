@@ -17,13 +17,13 @@ const App = () => {
   const [interns, setInterns] = useState([
     {
       id: "NV001",
-      name: "Nguyễn Văn An",
+      name: "Trần Đào Thái An",
       avatar: "👨‍💼",
-      department: "Phòng Kinh Doanh",
-      position: "Nhân viên kinh doanh",
-      mentor: "Trần Thị Bình",
-      startDate: "15/1/2024",
-      endDate: "15/4/2024",
+      department: "Phòng Triển Khai",
+      position: "Nhân viên triển khai",
+      mentor: "Duy Linh",
+      startDate: "06/10/2025",
+      endDate: "06/12/2025",
       score: 8.4,
       status: "studying",
       ratings: {
@@ -37,13 +37,13 @@ const App = () => {
     },
     {
       id: "NV002",
-      name: "Trần Thị Bảo",
+      name: "Lương Vĩnh Khang",
       avatar: "👩‍💼",
-      department: "Phòng Kỹ Thuật",
-      position: "Kỹ sư phần mềm",
-      mentor: "Lê Văn Cường",
-      startDate: "1/2/2024",
-      endDate: "1/5/2024",
+      department: "Phòng Triển Khai",
+      position: "Nhân viên triển khai",
+      mentor: "Quốc Phong",
+      startDate: "06/10/2025",
+      endDate: "06/12/2025",
       score: 9.0,
       status: "studying",
       ratings: {
@@ -57,13 +57,13 @@ const App = () => {
     },
     {
       id: "NV003",
-      name: "Phạm Minh Châu",
+      name: "Trần Quang Vinh",
       avatar: "👨‍🎓",
-      department: "Phòng Nhân Sự",
-      position: "Chuyên viên tuyển dụng",
-      mentor: "Hoàng Thị Dung",
-      startDate: "1/11/2023",
-      endDate: "1/2/2024",
+      department: "Phòng Triển Khai",
+      position: "Nhân viên triển khai",
+      mentor: "Duy Linh",
+      startDate: "06/10/2025",
+      endDate: "06/12/2025",
       score: 8.5,
       status: "completed",
       ratings: {
@@ -77,13 +77,13 @@ const App = () => {
     },
     {
       id: "NV004",
-      name: "Lê Quang Dũng",
+      name: "Trần Hoàng Anh Tú",
       avatar: "👨‍💻",
-      department: "Phòng Marketing",
-      position: "Marketing Executive",
-      mentor: "Nguyễn Thị Em",
-      startDate: "10/1/2024",
-      endDate: "10/4/2024",
+      department: "Phòng Triển Khai",
+      position: "Nhân viên triển khai",
+      mentor: "Duy Linh",
+      startDate: "06/10/2025",
+      endDate: "06/12/2025",
       score: 7.8,
       status: "studying",
       ratings: {
@@ -97,13 +97,13 @@ const App = () => {
     },
     {
       id: "NV005",
-      name: "Võ Thị Hà",
+      name: "Nguyễn Hoàng Duy",
       avatar: "👩‍💼",
-      department: "Phòng Kế Toán",
-      position: "Kế toán viên",
+      department: "Phòng Triển Khai",
+      position: "Nhân viên triển khai",
       mentor: "Trần Văn Giang",
-      startDate: "1/12/2023",
-      endDate: "1/3/2024",
+      startDate: "13/10/2025",
+      endDate: "13/12/2025",
       score: 6.3,
       status: "incomplete",
       ratings: {
@@ -117,13 +117,93 @@ const App = () => {
     },
     {
       id: "NV006",
-      name: "Đặng Văn Khoa",
+      name: "Trần Anh Kiệt",
       avatar: "👨‍🔧",
-      department: "Phòng Kỹ Thuật",
-      position: "Kỹ sư điện",
-      mentor: "Phạm Thị Lan",
-      startDate: "15/11/2023",
-      endDate: "15/2/2024",
+      department: "Phòng Triển Khai",
+      position: "Nhân viên triển khai",
+      mentor: "Quốc Phong",
+      startDate: "20/10/2025",
+      endDate: "20/12/2025",
+      score: 0,
+      status: "incomplete",
+      ratings: {
+        specialized: 0,
+        attitude: 0,
+        learning: 0,
+        communication: 0,
+        time: 0,
+        teamwork: 0,
+      },
+    },
+    {
+      id: "NV007",
+      name: "Lê Xuân Hiếu",
+      avatar: "👨‍🔧",
+      department: "Phòng Triển Khai",
+      position: "Nhân viên triển khai",
+      mentor: "Quốc Phong",
+      startDate: "20/10/2025",
+      endDate: "20/12/2025",
+      score: 0,
+      status: "incomplete",
+      ratings: {
+        specialized: 0,
+        attitude: 0,
+        learning: 0,
+        communication: 0,
+        time: 0,
+        teamwork: 0,
+      },
+    },
+    {
+      id: "NV008",
+      name: "Huỳnh Tấn Phát",
+      avatar: "👨‍🔧",
+      department: "Phòng Triển Khai",
+      position: "Nhân viên triển khai",
+      mentor: "Duy Linh",
+      startDate: "01/09/2025",
+      endDate: "01/11/2025",
+      score: 0,
+      status: "incomplete",
+      ratings: {
+        specialized: 0,
+        attitude: 0,
+        learning: 0,
+        communication: 0,
+        time: 0,
+        teamwork: 0,
+      },
+    },
+    {
+      id: "NV009",
+      name: "Hoàng Nam",
+      avatar: "👨‍🔧",
+      department: "Phòng Triển Khai",
+      position: "Nhân viên triển khai",
+      mentor: "Duy Linh",
+      startDate: "21/10/2025",
+      endDate: "21/12/2025",
+      score: 0,
+      status: "incomplete",
+      ratings: {
+        specialized: 0,
+        attitude: 0,
+        learning: 0,
+        communication: 0,
+        time: 0,
+        teamwork: 0,
+      },
+    },
+    {
+      id: "NV010",
+      name: "Lương Trúc Vy",
+      avatar: "👨‍🔧",
+      department: "Phòng Triển Khai",
+      position: "Nhân viên triển khai",
+      mentor: "Duy Linh",
+      startDate: "01/09/2025",
+      endDate: "01/11/2025",
       score: 0,
       status: "incomplete",
       ratings: {
@@ -162,6 +242,9 @@ const App = () => {
     "Phòng Nhân Sự",
     "Phòng Marketing",
     "Phòng Kế Toán",
+    "Phòng Triển Khai",
+    "Phòng Nghiệp Vụ",
+    "Phòng Phát Triển Phần Mềm",
   ];
   const avatars = ["👨‍💼", "👩‍💼", "👨‍💻", "👩‍💻", "👨‍🎓", "👩‍🎓", "👨‍🔧", "👩‍🔧"];
 
@@ -327,18 +410,9 @@ const App = () => {
             </div>
             <div>
               <h1 className="text-2xl font-bold">
-                Hệ thống đánh giá nhân viên học việc
+                HỆ THỐNG ĐÁNH GIÁ NHÂN VIÊN HỌC VIỆC
               </h1>
-              {/* <p className="text-blue-100 text-sm">
-                Quản lý và đánh giá / Nhân sự / Đánh giá nhân viên học việc
-              </p> */}
             </div>
-          </div>
-          <div className="flex items-center gap-3">
-            {/* <span className="text-sm">Khanglv</span>
-            <span className="bg-red-500 px-3 py-1 rounded text-xs font-semibold">
-              Việt V
-            </span> */}
           </div>
         </div>
       </div>
@@ -756,41 +830,45 @@ const App = () => {
         </div>
       )}
 
-      {/* Rating Modal */}
+      {/* Rating Modal - Responsive */}
       {showRatingModal && selectedIntern && (
-        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4 z-50">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-xl w-full">
-            <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4 rounded-t-2xl">
+        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 z-50">
+          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-xl max-h-[95vh] sm:max-h-[90vh] overflow-y-auto">
+            <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 sm:px-6 py-3 sm:py-4 rounded-t-2xl sticky top-0 z-10">
               <div className="flex items-center justify-between">
-                <h2 className="text-xl font-bold">
+                <h2 className="text-base sm:text-xl font-bold">
                   Đánh giá nhân viên học việc
                 </h2>
                 <button
                   onClick={() => setShowRatingModal(false)}
-                  className="hover:bg-white/20 p-1 rounded transition-colors"
+                  className="hover:bg-white/20 p-1 rounded transition-colors flex-shrink-0"
                 >
-                  <X className="w-6 h-6" />
+                  <X className="w-5 h-5 sm:w-6 sm:h-6" />
                 </button>
               </div>
-              <div className="flex items-center gap-3 mt-3">
-                <span className="text-3xl">{selectedIntern.avatar}</span>
-                <div>
-                  <p className="font-semibold">{selectedIntern.name}</p>
-                  <p className="text-blue-100 text-sm">
+              <div className="flex items-center gap-2 sm:gap-3 mt-2 sm:mt-3">
+                <span className="text-2xl sm:text-3xl flex-shrink-0">
+                  {selectedIntern.avatar}
+                </span>
+                <div className="min-w-0">
+                  <p className="font-semibold text-sm sm:text-base truncate">
+                    {selectedIntern.name}
+                  </p>
+                  <p className="text-blue-100 text-xs sm:text-sm truncate">
                     {selectedIntern.id} - {selectedIntern.department}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="p-6 space-y-6">
+            <div className="p-4 sm:p-6 space-y-4 sm:space-y-6">
               {ratingCategories.map((category) => (
-                <div key={category.key}>
-                  <div className="flex items-center justify-between mb-3">
-                    <label className="text-sm font-medium text-gray-700">
+                <div key={category.key} className="space-y-2 sm:space-y-3">
+                  <div className="flex items-center justify-between gap-2">
+                    <label className="text-xs sm:text-sm font-medium text-gray-700 flex-1 min-w-0">
                       {category.label}
                     </label>
-                    <span className="text-lg font-bold text-blue-600">
+                    <span className="text-base sm:text-lg font-bold text-blue-600 flex-shrink-0">
                       {selectedIntern.ratings[category.key]}/5
                     </span>
                   </div>
@@ -816,24 +894,24 @@ const App = () => {
                         }%, #e5e7eb 100%)`,
                       }}
                     />
-                    <div className="flex justify-between mt-1 text-xs text-gray-500">
+                    <div className="flex justify-between mt-1 text-xs text-gray-500 px-1">
                       <span>0</span>
-                      <span>1</span>
-                      <span>2</span>
-                      <span>3</span>
-                      <span>4</span>
+                      <span className="hidden xs:inline">1</span>
+                      <span className="hidden xs:inline">2</span>
+                      <span className="hidden xs:inline">3</span>
+                      <span className="hidden xs:inline">4</span>
                       <span>5</span>
                     </div>
                   </div>
                 </div>
               ))}
 
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                <div className="flex items-center justify-between">
-                  <span className="font-semibold text-gray-700">
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 sm:p-4">
+                <div className="flex items-center justify-between gap-2">
+                  <span className="text-sm sm:text-base font-semibold text-gray-700">
                     Điểm trung bình:
                   </span>
-                  <span className="text-2xl font-bold text-blue-600">
+                  <span className="text-xl sm:text-2xl font-bold text-blue-600">
                     {(
                       (Object.values(selectedIntern.ratings).reduce(
                         (a, b) => a + b,
@@ -848,18 +926,18 @@ const App = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 px-6 py-4 flex gap-3 justify-end rounded-b-2xl">
+            <div className="bg-gray-50 px-4 sm:px-6 py-3 sm:py-4 flex flex-col-reverse sm:flex-row gap-2 sm:gap-3 justify-end rounded-b-2xl sticky bottom-0">
               <button
                 onClick={() => setShowRatingModal(false)}
-                className="px-6 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 transition-colors font-medium"
+                className="w-full sm:w-auto px-4 sm:px-6 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 transition-colors font-medium text-sm sm:text-base"
               >
                 Hủy
               </button>
               <button
                 onClick={handleSaveRating}
-                className="flex items-center gap-2 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors font-medium"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 px-4 sm:px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors font-medium text-sm sm:text-base"
               >
-                <Save className="w-5 h-5" />
+                <Save className="w-4 h-4 sm:w-5 sm:h-5" />
                 Lưu đánh giá
               </button>
             </div>
